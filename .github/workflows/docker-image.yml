@@ -1,6 +1,6 @@
-#name: Build and Publish
+name: cithethngs
+
 on:
-  # run it on push to the default repository branch
   push:
     branches: [master]
   # run it during pull request
