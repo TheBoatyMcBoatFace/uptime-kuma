@@ -50,7 +50,7 @@ Here are some references:
 - A function that is completely out of scope
 - Unnecessary large code changes (Hard to review, causes code conflicts to other pull requests)
 
-I will mark your pull request in the [milestones](https://github.com/louislam/uptime-kuma/milestones), if I am plan to review and merge it.
+I will mark your pull request in the [milestones](https://github.com/theboatymcboatface/uptime-kuma/milestones), if I am plan to review and merge it.
 
 Also, please don't rush or ask for ETA, because I have to understand the pull request, make sure it is no breaking changes and stick to my vision of this project, especially for large pull requests.
 
@@ -65,7 +65,7 @@ Before deep into coding, discussion first is preferred. Creating an empty pull r
 1. Create an empty commit
    `git commit -m "[empty commit] pull request for <YOUR TASK NAME>" --allow-empty`
 1. Push to your fork repo
-1. Create a pull request: https://github.com/louislam/uptime-kuma/compare
+1. Create a pull request: https://github.com/theboatymcboatface/uptime-kuma/compare
 1. Write a proper description
 1. Click "Change to draft"
 1. Discussion
@@ -208,18 +208,18 @@ Patch release = the third digit ([Semantic Versioning](https://semver.org/))
 
 ## Translations
 
-Please read: https://github.com/louislam/uptime-kuma/tree/master/src/languages
+Please read: https://github.com/theboatymcboatface/uptime-kuma/tree/master/src/languages
 
 ## Wiki
 
 Since there is no way to make a pull request to wiki's repo, I have set up another repo to do that.
 
-https://github.com/louislam/uptime-kuma-wiki
+https://github.com/theboatymcboatface/uptime-kuma-wiki
 
 ## Maintainer
 
 Check the latest issues and pull requests:
-https://github.com/louislam/uptime-kuma/issues?q=sort%3Aupdated-desc
+https://github.com/theboatymcboatface/uptime-kuma/issues?q=sort%3Aupdated-desc
 
 ### Release Procedures
 
@@ -234,7 +234,7 @@ https://github.com/louislam/uptime-kuma/issues?q=sort%3Aupdated-desc
 
 Checking:
 
-- Check all tags is fine on https://hub.docker.com/r/louislam/uptime-kuma/tags
+- Check all tags is fine on https://hub.docker.com/r/theboatymcboatface/uptime-kuma/tags
 - Try the Docker image with tag 1.X.X (Clean install / amd64 / arm64 / armv7)
 - Try clean installation with Node.js
 
@@ -252,9 +252,9 @@ Checking:
 #### Setup Repo
 
 ```bash
-git clone https://github.com/louislam/uptime-kuma-wiki.git
+git clone https://github.com/theboatymcboatface/uptime-kuma-wiki.git
 cd uptime-kuma-wiki
-git remote add production https://github.com/louislam/uptime-kuma.wiki.git
+git remote add production https://github.com/theboatymcboatface/uptime-kuma.wiki.git
 ```
 
 #### Push to Production Wiki

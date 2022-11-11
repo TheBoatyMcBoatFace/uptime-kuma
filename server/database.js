@@ -109,7 +109,7 @@ class Database {
         const acquireConnectionTimeout = 120 * 1000;
 
         const Dialect = require("knex/lib/dialects/sqlite3/index.js");
-        Dialect.prototype._driver = () => require("@louislam/sqlite3");
+        Dialect.prototype._driver = () => require("@theboatymcboatface/sqlite3");
 
         const knexInstance = knex({
             client: Dialect,
@@ -207,7 +207,7 @@ class Database {
 
                 log.error("db", ex);
                 log.error("db", "Start Uptime-Kuma failed due to issue patching the database");
-                log.error("db", "Please submit a bug report if you still encounter the problem after restart: https://github.com/louislam/uptime-kuma/issues");
+                log.error("db", "Please submit a bug report if you still encounter the problem after restart: https://github.com/theboatymcboatface/uptime-kuma/issues");
 
                 this.restore();
                 process.exit(1);
@@ -249,7 +249,7 @@ class Database {
 
             log.error("db", ex);
             log.error("db", "Start Uptime-Kuma failed due to issue patching the database");
-            log.error("db", "Please submit the bug report if you still encounter the problem after restart: https://github.com/louislam/uptime-kuma/issues");
+            log.error("db", "Please submit the bug report if you still encounter the problem after restart: https://github.com/theboatymcboatface/uptime-kuma/issues");
 
             this.restore();
 

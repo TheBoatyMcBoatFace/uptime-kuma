@@ -55,7 +55,7 @@ function ucfirst(str) {
 exports.ucfirst = ucfirst;
 /**
  * @deprecated Use log.debug
- * @since https://github.com/louislam/uptime-kuma/pull/910
+ * @since https://github.com/theboatymcboatface/uptime-kuma/pull/910
  * @param msg
  */
 function debug(msg) {

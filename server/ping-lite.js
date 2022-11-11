@@ -185,7 +185,7 @@ Ping.prototype.stop = function () {
 /**
  * Try to convert to UTF-8 for Windows, as the ping's output on Windows is not UTF-8 and could be in other languages
  * Thank @pemassi
- * https://github.com/louislam/uptime-kuma/issues/570#issuecomment-941984094
+ * https://github.com/theboatymcboatface/uptime-kuma/issues/570#issuecomment-941984094
  * @param {any} data
  * @returns {string}
  */
