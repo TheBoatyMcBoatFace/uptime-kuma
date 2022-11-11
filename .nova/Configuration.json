@@ -1,4 +1,5 @@
 {
+  "index.enabled" : true,
   "workspace.color" : 9,
   "workspace.name" : "Uptime Kuma"
 }
