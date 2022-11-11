@@ -109,7 +109,7 @@ class Database {
         const acquireConnectionTimeout = 120 * 1000;
 
         const Dialect = require("knex/lib/dialects/sqlite3/index.js");
-        Dialect.prototype._driver = () => require("@theboatymcboatface/sqlite3");
+        Dialect.prototype._driver = () => require("@louislam/sqlite3");
 
         const knexInstance = knex({
             client: Dialect,
